@@ -1,0 +1,117 @@
+/* --------------------- GLOBAL STYLES --------------------- */
+body { color: #333532; }
+.main-color { color: #F5CB5B; }
+.secondary-color { color: #333532; }
+.btn-yellow { color: #333532; background-color: #F5CB5B; font-weight: 600; }
+.btn-yellow:hover { color: #333532; background-color: #e0ba53; font-weight: 600; }
+.btn-yellow:focus { box-shadow: none; }
+.btn-grey { color: #F5CB5B; background-color: #333532; font-weight: 600; }
+.btn-grey:hover { color: #F5CB5B; background-color: #1b1c1b; font-weight: 600; }
+.btn-grey:focus { box-shadow: none; }
+/* --------------------- HEADER & NAVBAR --------------------- */
+.shadow-main {
+  box-shadow: 0px 0px 10px;
+}
+.bg-main {
+  background-color: #F5CB5B;
+}
+.bg-grey {
+  background-color: #333532;
+}
+.bg-darker{
+  background-color: #242424;
+}
+.navbar-light {
+  color: #333532;
+  font-weight: 700;
+  font-size: 30px;
+}
+.category {
+  color: #333532;
+  font-weight: 900;
+  font-size: 35px;;
+}
+.logo-header {
+  width: 90px;
+  padding: 0 .5rem;
+}
+#searchBar {
+  width: 500px;
+  height: 50px;
+  background-color: #ddd;
+}
+/* ------------------------- CAROUSEL ------------------------- */
+.carousel {
+  margin-bottom: 3rem;
+  margin: 0 auto;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item {
+  height: 25rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+/* --------------------- MARKETING CONTENT --------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin: 1rem 0;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* ------------------------- FEATURETTES ------------------------- */
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+/* QUOTE CAROUSEL */
+.width-auto {
+  width: auto;
+}
+.text-lg {
+  font-size: 2rem;
+}
+.carousel-indicators li {
+  border: none;
+  background: #ccc;
+}
+.carousel-indicators li.active {
+  background: #F5CB5B;
+}
+
+
+/* ------------------------ RESPONSIVE CSS ------------------------ */
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
