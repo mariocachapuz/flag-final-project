@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link href="./css/styles.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="./img/logo.ico" />
+  <title>myStore | Login</title>
+  <style>
+    @media (max-width: 991px) {
+      body {
+        background-color: #333532;
+      }
+
+      #logo {
+        width: 100px;
+        height: 100px;
+        padding: 1rem;
+      }
+
+      #login {
+        height: 70vh;
+      }
+    }
+
+    @media (min-width: 992px) {
+      #footer {
+        display: none;
+      }
+    }
+
+    .login {
+      height: 100vh;
+    }
+
+    a {
+      color: #333532;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #5d5f5b;
+    }
+
+    h1 {
+      font-size: 5rem;
+    }
+
+    .force-to-bottom {
+      position: absolute;
+      bottom: 5%;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <!-- The image half -->
+      <div class="col-lg-5 bg-main d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <a href="./index.html" class="mx-auto d-xs-flex"><img src="./img/logo-dark.png" alt="" width="150"
+                height="150" id="logo" /></a>
+          </div>
+          <div class="row d-none d-lg-flex">
+            <h1 class="font-weight-bold mx-auto">myStore</h1>
+          </div>
+
+          <div class="row d-none d-lg-flex force-to-bottom">
+            <a href="#" class="mx-auto my-5">Privacy Policy</a>
+            <a href="#" class="mx-auto my-5">Cookie Policy</a>
+          </div>
+          <div class="row d-none d-lg-flex force-to-bottom">
+            <p class="mx-auto">Copyright &copy; 2020 All rights reserved</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-7 col-md-12 bg-light">
+        <div class="login d-flex align-items-center py-1" id="login">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 col-xl-7 cold-sm-12 mx-auto">
+                <form>
+                  <div class="form-group mb-3">
+                    <input id="inputEmail" type="email" placeholder="Email address" required="" autofocus=""
+                      class="form-control rounded-pill border-0 shadow-sm px-4" />
+                  </div>
+                  <div class="form-group mb-3">
+                    <input id="inputPassword" type="password" placeholder="Password" required=""
+                      class="form-control rounded-pill border-0 shadow-sm px-4 text-primary" />
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input id="customCheck1" type="checkbox" checked class="ustom-control-input" />
+                    <label for="customCheck1">Remember password</label>
+                  </div>
+                  <button type="submit" class="btn btn-yellow btn-block text-uppercase mb-2 rounded-pill shadow-sm">
+                    Sign in
+                  </button>
+                </form>
+                <a href="#">
+                  <p class="text-center font-weight-bold">
+                    Not a member? Sign-up now
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container main-color" id="footer">
+      <div class="row" id="footer">
+        <a href="#" class="main-color mx-auto my-3">Privacy Policy</a>
+        <a href="#" class="main-color mx-auto my-3">Cookie Policy</a>
+      </div>
+      <div class="row" id="footer">
+        <p class="main-color mx-auto my-3">Copyright &copy; 2020</p>
+        <p class="main-color mx-auto my-3">All rights reserved</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/72fa413dca.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
