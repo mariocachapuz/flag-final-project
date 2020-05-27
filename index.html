@@ -37,6 +37,9 @@
         font-size: 3.5rem;
       }
     }
+    .row-reverse {
+  flex-direction: row-reverse;
+}
   </style>
 </head>
 
@@ -58,13 +61,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto d-lg-none">
             <li class="nav-item">
-              <a class="nav-link" href="#">T-Shirts</a>
+              <a class="nav-link" href="./tshirt-1.html">T-Shirts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mugs</a>
+              <a class="nav-link" href="./mug-1.html">Mugs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Wall Art</a>
+              <a class="nav-link" href="./wall-1.html">Wall Art</a>
             </li>
           </ul>
         </div>
@@ -97,11 +100,11 @@
               </p>
             </div>
           </div>
-          <img src="./img/tshirt-product3.jpg" alt="" />
+          <img src="./img/featured-1.jpg" alt="" class="img-fluid"/>
         </div>
         <div class="carousel-item">
           <div class="container">
-            <div class="carousel-caption text-left">
+            <div class="carousel-caption text-right">
               <h1 class="secondary-color">Yellow Head Mug</h1>
               <p class="secondary-color">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -112,7 +115,7 @@
               </p>
             </div>
           </div>
-          <img src="./img/mug-product2.jpg" alt="" />
+          <img src="./img/featured-2.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="carousel-item">
           <div class="container">
@@ -127,7 +130,7 @@
               </p>
             </div>
           </div>
-          <img src="./img/wallposter-product2.jpg" alt="" />
+          <img src="./img/featured-3.jpg" alt="" class="img-fluid" style="max-width: 100%; height: 100%;"/>
         </div>
       </div>
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -150,7 +153,7 @@
             tempore, sequi doloremque sint impedit iure.
           </p>
           <p>
-            <a class="btn btn-yellow mt-5" href="#" role="button">View T-Shirts &raquo;</a>
+            <a class="btn btn-yellow mt-3" href="./tshirt-1.html" role="button">View T-Shirts &raquo;</a>
           </p>
         </div>
         <div class="col-lg-4">
@@ -161,7 +164,7 @@
             dolore repellendus modi, iure ullam laborum.
           </p>
           <p>
-            <a class="btn btn-yellow mt-5" href="#" role="button">View Mugs &raquo;</a>
+            <a class="btn btn-yellow mt-3" href="./mug-1.html" role="button">View Mugs &raquo;</a>
           </p>
         </div>
         <div class="col-lg-4">
@@ -172,15 +175,18 @@
             recusandae obcaecati accusamus sed libero accusantium?
           </p>
           <p>
-            <a class="btn btn-yellow mt-5" href="#" role="button">View Wall Art &raquo;</a>
+            <a class="btn btn-yellow mt-3" href="./wall-1.html" role="button">View Wall Art &raquo;</a>
           </p>
         </div>
       </div>
       <!-- FEATURETTES -->
       <hr class="featurette-divider" />
       <div class="row featurette">
+        <div class="col-md-5 order-md-2">
+          <img src="./img/tshirt2-category.jpg" alt="" class="col-sm-12" />
+        </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">
+          <h2 class="featurette-heading text-center">
             Our t-shirts, sewed with love.
             <span class="text-muted">You'll fall for them.</span>
           </h2>
@@ -191,17 +197,17 @@
             commodo.
           </p>
           <p>
-            <a class="col-lg-4 btn btn-grey mt-1" href="#" role="button">Learn more &raquo;</a>
+            <a class="col-lg-4 btn btn-grey btn-lg mt-1" href="#" role="button">Learn more &raquo;</a>
           </p>
-        </div>
-        <div class="col-md-5">
-          <img src="./img/tshirt2-category.jpg" alt="" class="col-sm-12" />
         </div>
       </div>
       <hr class="featurette-divider" />
       <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading text-right">
+        <div class="col-md-5 order-md-1">
+          <img src="./img/mugs-feature.jpg" alt="" class="col-sm-12" />
+        </div>
+        <div class="col-md-7 order-md-1">
+          <h2 class="featurette-heading text-center">
             Everyday mugs, unique designs.
             <span class="text-muted">See for yourself.</span>
           </h2>
@@ -212,17 +218,17 @@
             commodo.
           </p>
           <p>
-            <a class="col-lg-4 btn btn-grey mt-1 float-lg-right" href="#" role="button">Learn more &raquo;</a>
+            <a class="col-lg-4 btn btn-grey btn-lg mt-1 float-lg-right" href="#" role="button">Learn more &raquo;</a>
           </p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img src="./img/mugs-feature.jpg" alt="" class="col-sm-12" />
         </div>
       </div>
       <hr class="featurette-divider" />
       <div class="row featurette">
+        <div class="col-md-5 order-md-2">
+          <img src="./img/frames-feature.jpg" alt="" class="col-sm-12" />
+        </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">
+          <h2 class="featurette-heading text-center">
             Frames for every wall.
             <span class="text-muted">Just hang them.</span>
           </h2>
@@ -233,11 +239,8 @@
             commodo.
           </p>
           <p>
-            <a class="col-lg-4 btn btn-grey mt-1" href="#" role="button">Learn more &raquo;</a>
+            <a class="col-lg-4 btn btn-grey btn-lg mt-1" href="#" role="button">Learn more &raquo;</a>
           </p>
-        </div>
-        <div class="col-md-5">
-          <img src="./img/frames-feature.jpg" alt="" class="col-sm-12" />
         </div>
       </div>
       <hr class="featurette-divider" />
@@ -247,7 +250,7 @@
     <section class="my-5 col-sm-12">
       <div class="container">
         <div class="row">
-          <p class="display-4 mx-auto">What people say about us</p>
+          <p class="display-4 mx-auto text-center">What people say about us</p>
         </div>
         <div class="row">
           <div class="col-lg-12 mx-auto">
@@ -386,7 +389,7 @@
   <!-- FOOTER -->
   <footer class="bg-darker">
     <div class="container py-5">
-      <div class="row py-4">
+      <div class="row">
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><a href="./index.html"><img src="./img/logo-dark.png" alt="" width="100" class="mb-3"></a>
           <a class="navbar-brand navbar-light text-light pl-2" href="./index.html">myStore</a>
         </div>
@@ -408,7 +411,7 @@
             <li class="mb-2"><a href="./contact-us.html" class="text-light">Contact us</a></li>
           </ul>
         </div>
-        <div class="col-lg-4 col-md-6 mb-lg-0 mx-md-auto text-md-center mt-md-3">
+        <div class="col-lg-4 col-md-6 mb-lg-0 mx-md-auto text-md-center mt-md-1">
           <h4 class="text-uppercase font-weight-bold mb-4 main-color">Join our newsletter now</h4>
           <p class="text-light mb-4">
             Get e-mail updates about our new products
