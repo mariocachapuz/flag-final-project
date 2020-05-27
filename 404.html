@@ -26,11 +26,26 @@
     }
     h2 {
     font-family: Arial, Verdana;
-    font-weight: 800;
-    font-size: 2.5rem;
+    font-weight: 500;
+    font-size: 6vw;
     color: #091f2f;
-    text-transform: uppercase;
+  }
+  .responsive {
+  width: 30%;
+  height: auto;
 }
+.fa-heart:hover {
+      color: #ddd!important;
+      transition: .3s ease;
+    }
+    .fa-shopping-cart:hover {
+      color: #ddd!important;
+      transition: .3s ease;
+    }
+    .fa-user:hover {
+      color: #ddd!important;
+      transition: .3s ease;
+    }
 a { color: #F5CB5B; }
 a:hover { text-decoration: none; color: #fff; }
 .accordion-section .panel-default > .panel-heading { border: 0; background: #242424; padding: 0; text-transform: uppercase; }
@@ -52,7 +67,7 @@ a:hover { text-decoration: none; color: #fff; }
   <header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-main shadow p-2 mb-5 rounded">
       <div class="container">
-        <img src="./img/logo.png" alt="" class="logo-header" />
+        <a href="./index.html"><img src="./img/logo.png" alt="" class="logo-header" /></a>
         <a class="navbar-brand navbar-light" href="./index.html">myStore</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,42 +80,42 @@ a:hover { text-decoration: none; color: #fff; }
         </div>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto d-lg-none">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">T-SHIRTS <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">T-Shirts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">MUGS</a>
+              <a class="nav-link" href="#">Mugs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">WALL ART</a>
+              <a class="nav-link" href="#">Wall ArT</a>
             </li>
           </ul>
         </div>
         <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
           <a href="#"><i class="fas fa-heart pr-3" style="color: #333532;"></i></a>
           <a href="#"><i class="fas fa-shopping-cart pr-3" style="color: #333532;"></i></a>
-          <a href="#"><i class="fas fa-user pr-3" style="color: #333532;"></i></a>
+          <a href="./login.html"><i class="fas fa-user pr-3" style="color: #333532;"></i></a>
         </div>
       </div>
     </nav>
   </header>
-  <main class="container my-5 py-5">
+  <main class="container my-3 py-3">
     <div class="col-sm-12 col-lg-12 my-5 py-5">
       <div class="row">
-        <img src="./img/404.png" alt="" width="350" class="mx-auto">
+        <img src="./img/404.png" alt="" width="350" class="mx-auto responsive">
       </div>
       <div class="row">
-          <h1 class="text-uppercase display-1 font-weight-bold mx-auto my-5 text-center">Page not found</h1>
+          <h1 class="text-uppercase display-1 font-weight-bold mx-auto my-5 text-center" style="font-size: 8vw">Page not found</h1>
       </div>
       <div class="row">
-          <h2 class="mx-auto my-3 text-center">
+          <h2 class="mx-auto my-3 text-center" style="font-size: 4vw">
             The page you were looking for
             wasn’t found or doesn’t exist.
           </h2>
       </div>
       <div class="row">
-          <p class="mx-auto mt-3">
-            <a class="btn btn-lg btn-grey text-uppercase" href="#" role="button">Homepage</a>
+          <p class="mx-auto mt-5">
+            <a class="btn btn-lg btn-grey text-uppercase" href="./index.html" role="button">Homepage</a>
           </p>
       </div>
     </div>
@@ -109,7 +124,7 @@ a:hover { text-decoration: none; color: #fff; }
   <footer class="bg-darker">
     <div class="container py-5">
       <div class="row py-4">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="./img/logo-dark.png" alt="" width="100" class="mb-3">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><a href="./index.html"><img src="./img/logo-dark.png" alt="" width="100" class="mb-3"></a>
           <a class="navbar-brand navbar-light text-light pl-2" href="./index.html">myStore</a>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
@@ -144,31 +159,28 @@ a:hover { text-decoration: none; color: #fff; }
                 <button id="button-addon1" type="submit" class="btn btn-yellow text-uppercase">Subscribe</button>
               </div>
             </div>
-            <ul class="list-inline mt-4">
-              <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
-                    class="fa fa-twitter main-color"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
-                    class="fa fa-facebook main-color"></i></a></li>
+            <ul class="list-inline mt-4 text-center">
+              <li class="list-inline-item pr-3"><a href="#" target="_blank" title="twitter"><i
+                    class="fa fa-twitter main-color fa-3x"></i></a></li>
+              <li class="list-inline-item pr-3"><a href="#" target="_blank" title="facebook"><i
+                    class="fa fa-facebook main-color fa-3x"></i></a></li>
               <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
-                    class="fa fa-instagram main-color"></i></a></li>
+                    class="fa fa-instagram main-color fa-3x"></i></a></li>
             </ul>
           </div>
         </div>
       </div>
-      <hr class="featurette-divider" style="background-color: #aaa" />
+      <hr style="background-color: #aaa" />
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
-            <p class="text-muted">Copyright � 2020 All rights reserved | Developed by Mario Cachapuz</p>
+            <p class="text-muted">Copyright &copy; 2020 All rights reserved | Developed by Mario Cachapuz</p>
           </div>
-          <div class="col-lg-6 col-md-6 mb-4 mb-lg-0 d-flex justify-content-end align-middle">
-            <ul class="list-inline">
-              <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
-                    class="fab fa-cc-paypal fa-3x text-light"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
-                    class="fab fa-cc-mastercard fa-3x text-light"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
-                    class="fab fa-cc-visa fa-3x text-light"></i></a></li>
+          <div class="col-lg-6 col-md-6 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-end justify-content-md-end">
+            <ul class="list-inline" id="">
+              <li class="list-inline-item"><i class="fab fa-cc-paypal fa-3x text-light"></i></a></li>
+              <li class="list-inline-item"><i class="fab fa-cc-mastercard fa-3x text-light"></i></a></li>
+              <li class="list-inline-item"><i class="fab fa-cc-visa fa-3x text-light"></i></a></li>
             </ul>
           </div>
         </div>
