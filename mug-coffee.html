@@ -32,8 +32,9 @@
       color: #ddd!important;
       transition: .3s ease;
     }
-    a { color: #F5CB5B; }
-    a:hover { text-decoration: none; color: #fff; }
+    #no-hover:hover {
+      color: #F5CB5B;
+    }
   </style>
 </head>
 <body>
@@ -83,13 +84,13 @@
             <div class="input-group">
                 <input type="text" name="quant[1]" class="form-control input-number col-lg-3 input-lg" value="1" min="1" max="10">
                 <span class="input-group-btn">
-              <button type="button" class="btn btn-default btn-number bg-grey main-color" data-type="plus" data-field="quant[1]">
+              <button type="button" class="btn btn-default btn-number bg-grey main-color" data-type="plus" data-field="quant[1]" id="no-hover">
                 <i class="fas fa-plus"></i>
                 </button>
                 </span>
         
                 <span class="input-group-btn">
-              <button type="button" class="btn btn-default btn-number bg-grey main-color" disabled="disabled" data-type="minus" data-field="quant[1]">
+              <button type="button" class="btn btn-default btn-number bg-grey main-color" disabled="disabled" data-type="minus" data-field="quant[1]" id="no-hover">
                 <i class="fas fa-minus"></i>
                 </button>
                 </span>
