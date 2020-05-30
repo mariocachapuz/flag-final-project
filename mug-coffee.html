@@ -35,6 +35,17 @@
     #no-hover:hover {
       color: #F5CB5B;
     }
+    .breadcrumb-caret .breadcrumb-item+.breadcrumb-item::before {
+    content: '\f0da';
+    font-family: 'FontAwesome';
+    }
+    a {
+      color: #333532;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #F5CB5B;
+    }
   </style>
 </head>
 <body>
@@ -74,6 +85,19 @@
     </nav>
   </header>
   <main class="container mt-5 py-5 col-md-6">
+    <!-- Breadcrumbs -->
+  <div>
+    <div class="pt-3 pb-2 col-xs-12 col-md-7 mx-auto">
+      <nav>
+        <ol class="breadcrumb breadcrumb-caret bg-white">
+          <li class="breadcrumb-item"><a href="./index.html" class="text-uppercase">Home</a></li>
+          <li class="breadcrumb-item"><a href="./mugs.html" class="text-uppercase">Mugs</a></li>
+          <li aria-current="page" class="breadcrumb-item font-weight-bold text-uppercase">Mug Coffee</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- End of Breadcrumbs --> 
     <div class="row mt-3 pt-3 justify-content-center">
         <div>
             <img src="./img/mug-product1.jpg" alt="" width="100%" height="300" />
@@ -100,7 +124,7 @@
             <button id="button-addon1" type="submit" class="btn btn-yellow text-uppercase mt-3"><i class="fas fa-heart"></i></button>
         </div>
     </div>
-    <div class="contariner">
+    <div class="container">
     <div class="row mt-3 justify-content-center">
         <div class="col-lg-4 mt-3">
             <h3>Features</h3>

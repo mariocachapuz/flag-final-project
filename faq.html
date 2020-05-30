@@ -39,6 +39,13 @@
       text-decoration: underline;
       color: #fff;
     }
+    #a {
+      color: #333532;
+    }
+    #a:hover {
+      text-decoration: underline;
+      color: #F5CB5B;
+    }
 
     .accordion-section .panel-default>.panel-heading {
       border: 0;
@@ -68,6 +75,10 @@
 
     .accordion-section .panel-default .panel-body {
       font-size: 1.2rem;
+    }
+    .breadcrumb-caret .breadcrumb-item+.breadcrumb-item::before {
+    content: '\f0da';
+    font-family: 'FontAwesome';
     }
   </style>
 </head>
@@ -108,8 +119,20 @@
       </div>
     </nav>
   </header>
-  <section class="accordion-section clearfix my-5 py-5" aria-label="Question Accordions">
-    <div class="container my-5 py-5 col-lg-8 col-sm-12">
+  <!-- Breadcrumbs -->
+  <div class="pt-5">
+    <div class="pt-3 pb-2 col-xs-12 col-md-7 mx-auto pt-5">
+      <nav>
+        <ol class="breadcrumb breadcrumb-caret bg-white">
+          <li class="breadcrumb-item"><a href="./index.html" class="text-uppercase" id="a">Home</a></li>
+          <li aria-current="page" class="breadcrumb-item font-weight-bold text-uppercase">FAQ</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- End of Breadcrumbs -->  
+  <section class="accordion-section clearfix" aria-label="Question Accordions">
+    <div class="container my-3 py-3 col-lg-8 col-sm-12">
       <h2 class="text-center font-weight-bold display-1">FAQ</h2>
       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
         <div class="panel panel-default">
