@@ -5,8 +5,9 @@
 # FLAG Final Project
 
 FLAG Front-End Web Developer course final project - An online store
-
 Live demo: [https://mariocachapuz.github.io/flag-final-project/](https://mariocachapuz.github.io/flag-final-project/)
+
+A small and simple online store with three product categories
 
 ## Preview
 
