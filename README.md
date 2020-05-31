@@ -11,10 +11,8 @@ Live demo: [https://mariocachapuz.github.io/flag-final-project/](https://marioca
 ## Preview
 
 <span>
- <h3>Desktop</h3>
-<img src="https://github.com/mariocachapuz/flag-final-project/blob/master/thumbnail-desktop.JPG" alt="myStore livedemo desktop" width="300">
- <h3>Mobile</h3>
-<img src="https://github.com/mariocachapuz/flag-final-project/blob/master/thumbnail-mobile.JPG" alt="myStore livedemo desktop" width="100">
+<img src="https://github.com/mariocachapuz/flag-final-project/blob/master/thumbnail-desktop.JPG" alt="myStore preview desktop" width="300">
+<img src="https://github.com/mariocachapuz/flag-final-project/blob/master/thumbnail-mobile.JPG" alt="myStore preview mobile" width="100">
 </span>
 
 ## Technologies used in this project
