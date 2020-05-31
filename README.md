@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://github.com/mariocachapuz/flag-final-project/blob/master/img/logo.png" alt="myStore logo" align="right" width="100">
+ <img src="https://github.com/mariocachapuz/flag-final-project/blob/master/img/logo.png" alt="myStore logo" align="right" width="200">
 </p>
 
 # FLAG Final Project
