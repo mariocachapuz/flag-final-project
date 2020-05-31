@@ -15,6 +15,24 @@
     .fa-shopping-cart:hover { color: #ddd !important; transition: .3s ease; }
     .fa-user:hover { color: #ddd !important; transition: .3s ease; }
     .responsive { width: 70%; height: auto; }
+    a { color: #F5CB5B; }
+    a:hover { text-decoration: underline; color: #fff; }
+    #a { color: #333532; }
+    #a:hover { text-decoration: underline; color: #F5CB5B; }
+    .accordion-section .panel-default>.panel-heading { border: 0; background: #242424; padding: 0; text-transform: uppercase; }
+    .accordion-section .panel-default .panel-title a { display: block; font-size: 1.5rem; }
+    .accordion-section .panel-default .panel-title a:after {
+      font-family: 'FontAwesome';
+      font-style: normal;
+      font-size: 3rem;
+      content: "\f106";
+      color: #F5CB5B;
+      float: right;
+      margin-top: -12px;
+    }
+    .accordion-section .panel-default .panel-title a.collapsed:after { content: "\f107"; }
+    .accordion-section .panel-default .panel-body { font-size: 1.2rem; }
+    .breadcrumb-caret .breadcrumb-item+.breadcrumb-item::before { content: '\f105'; font-family: 'FontAwesome'; }
   </style>
 </head>
 <body>
@@ -48,9 +66,21 @@
     </nav>
 </header>
 <main class="container">
-    <div class="col-xs-12 col-lg-12 mt-5 pt-5">
+  <!-- Breadcrumbs -->
+  <div class="pt-5">
+    <div class="col-xs-12 col-md-7 pt-5">
+      <nav>
+        <ol class="breadcrumb breadcrumb-caret bg-white">
+          <li class="breadcrumb-item"><a href="./index.html" class="text-uppercase" id="a">Home</a></li>
+          <li aria-current="page" class="breadcrumb-item font-weight-bold text-uppercase">FAQ</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- End of breadcrumbs -->
+    <div class="col-xs-12 col-lg-12 mt-1 pt-1">
       <div class="row">
-        <h1 class="font-weight-bold display-1 mt-5 text-center col-sm-12" style="font-size: 8vw">CONTACT US</h1>
+        <h1 class="font-weight-bold display-1 mt-1 text-center col-sm-12" style="font-size: 8vw">CONTACT US</h1>
       </div>
       <div class="row col-lg-12 mt-5 pl-5">
         <div class="col-lg-6 col-xs-12 text-center">
