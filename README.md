@@ -14,7 +14,7 @@ A small and simple online store with three product categories, based on the Boot
 
 <span>
 <img src="https://github.com/mariocachapuz/flag-final-project/blob/master/thumbnail-desktop.JPG" alt="myStore preview desktop" width="300">
-<img src="https://github.com/mariocachapuz/flag-final-project/blob/master/thumbnail-mobile.JPG" alt="myStore preview mobile" width="100">
+<img src="https://github.com/mariocachapuz/flag-final-project/blob/master/thumbnail-mobile.JPG" alt="myStore preview mobile" width="125">
 </span>
 
 ## Technologies used in this project
