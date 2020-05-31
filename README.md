@@ -8,10 +8,10 @@ FLAG Front-End Web Developer course final project - An online store
 
 Live demo: [https://mariocachapuz.github.io/flag-final-project/](https://mariocachapuz.github.io/flag-final-project/)
 
-## Thumbnails
 
 
-## Techonologies used in this project
+
+## Technologies used in this project
 * HTML5
 * CSS3
 * Bootstrap 4
