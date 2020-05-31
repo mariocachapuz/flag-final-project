@@ -11,26 +11,10 @@
   <link rel="icon" type="image/png" href="./img/logo.ico" />
   <title>myStore | Mugs</title>
   <style>
-    .fa-heart:hover {
-      color: #ddd !important;
-      transition: .3s ease;
-    }
-
-    .fa-shopping-cart:hover {
-      color: #ddd !important;
-      transition: .3s ease;
-    }
-
-    .fa-user:hover {
-      color: #ddd !important;
-      transition: .3s ease;
-    }
-
-    .responsive {
-      width: 70%;
-      height: auto;
-    }
-
+    .fa-heart:hover { color: #ddd !important; transition: .3s ease; }
+    .fa-shopping-cart:hover { color: #ddd !important; transition: .3s ease; }
+    .fa-user:hover { color: #ddd !important; transition: .3s ease; }
+    .responsive { width: 70%; height: auto; }
     @media (max-width: 576px) {
       h5 {
         font-size: 1rem;
@@ -41,27 +25,13 @@
         font-size: .9rem;
       }
     }
-    .thumbnail:hover {
-      opacity: .7;
-    }
-    .page-link:hover {
-      background-color: #333532;
-      color: #F5CB5B;
-    }
-    .breadcrumb-caret .breadcrumb-item+.breadcrumb-item::before {
-    content: '\f0da';
-    font-family: 'FontAwesome';
-    }
-    a {
-      color: #333532;
-    }
-    a:hover {
-      text-decoration: underline;
-      color: #F5CB5B;
-    }
+    .thumbnail:hover { opacity: .7; }
+    .page-link:hover { background-color: #333532; color: #F5CB5B; }
+    .breadcrumb-caret .breadcrumb-item+.breadcrumb-item::before { content: '\f105'; font-family: 'FontAwesome'; }
+    a { color: #333532; }
+    a:hover { text-decoration: underline; color: #F5CB5B; }
   </style>
 </head>
-
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-main shadow p-2 mb-5 rounded">
@@ -79,15 +49,9 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto d-lg-none">
-            <li class="nav-item">
-              <a class="nav-link" href="./tshirts.html">T-Shirts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./mugs.html">Mugs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./wallart.html">Wall Art</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="./tshirts.html">T-Shirts</a></li>
+            <li class="nav-item"><a class="nav-link" href="./mugs.html">Mugs</a></li>
+            <li class="nav-item"><a class="nav-link" href="./wallart.html">Wall Art</a></li>
           </ul>
         </div>
         <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
@@ -98,7 +62,7 @@
       </div>
     </nav>
   </header>
-  <main role="main">
+  <main>
     <div class="container-fluid">
       <div class="row bg-grey mt-5 pt-5">
         <h5 class="main-color mx-auto pt-4 pb-3">
@@ -107,7 +71,6 @@
         </h5>
       </div>
     </div>
-
     <!-- Breadcrumbs -->
   <div class="bg-light">
     <div class="pt-3 pb-2 col-xs-12 col-md-7 mx-auto">
@@ -129,9 +92,16 @@
               <div class="card-body mask flex-center">
                 <p>Mug Yellow Head</p>
                 <p class="font-weight-bold h3">10,50€</p>
-
               </div>
-
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <a href="./mug-yellowhead.html"><img src="./img/mug-product2.jpg" alt="" width="100%" height="300" class="thumbnail"/></a>
+              <div class="card-body">
+                <p>Mug Yellow Head</p>
+                <p class="font-weight-bold h3">10,50€</p>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
@@ -145,16 +115,6 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="./mug-yellowhead.html"><img src="./img/mug-product2.jpg" alt="" width="100%" height="300" class="thumbnail"/></a>
-              <div class="card-body">
-                <p>Mug Yellow Head</p>
-                <p class="font-weight-bold h3">10,50€</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
               <a href="./mug-coffee.html"><img src="./img/mug-product1.jpg" alt="" width="100%" height="300" class="thumbnail"/></a>
               <div class="card-body">
                 <p>Mug Coffee</p>
@@ -180,7 +140,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <a href="./mug-stormtrooper.html"><img src="./img/mug-product3.jpg" alt="" width="100%" height="300" class="thumbnail"/></a>
@@ -263,12 +222,9 @@
               </div>
             </div>
             <ul class="list-inline mt-4 text-center">
-              <li class="list-inline-item pr-3"><a href="#" target="_blank" title="twitter"><i
-                    class="fa fa-twitter main-color fa-3x"></i></a></li>
-              <li class="list-inline-item pr-3"><a href="#" target="_blank" title="facebook"><i
-                    class="fa fa-facebook main-color fa-3x"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
-                    class="fa fa-instagram main-color fa-3x"></i></a></li>
+              <li class="list-inline-item pr-3"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter main-color fa-3x"></i></a></li>
+              <li class="list-inline-item pr-3"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook main-color fa-3x"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram main-color fa-3x"></i></a></li>
             </ul>
           </div>
         </div>
@@ -279,9 +235,8 @@
           <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
             <p class="text-muted">myStore &copy; 2020 All rights reserved | Developed by Mario Cachapuz</p>
           </div>
-          <div
-            class="col-lg-6 col-md-6 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-end justify-content-md-end">
-            <ul class="list-inline" id="">
+          <div class="col-lg-6 col-md-6 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-end justify-content-md-end">
+            <ul class="list-inline">
               <li class="list-inline-item"><i class="fab fa-cc-paypal fa-3x text-light"></i></a></li>
               <li class="list-inline-item"><i class="fab fa-cc-mastercard fa-3x text-light"></i></a></li>
               <li class="list-inline-item"><i class="fab fa-cc-visa fa-3x text-light"></i></a></li>
@@ -301,5 +256,4 @@
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/72fa413dca.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
